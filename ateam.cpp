@@ -4,21 +4,19 @@ using namespace std;
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int i;
-    cin>> i ;
+    int n;
+    cin>> n ;
     int q = 0;
-    int an ;
-    for (int n=0; n<i; n++)
+    for (int i=0; i<n; i++)
     {
         int x,y,z;
         cin>> x >> y >> z;
         
         if((x+y+z)>1){
-            q = q + 1;
-            an = q;
+            q++;
             }
     }
     
-    cout<< an ;
+    cout<< q ;
     return 0;
 }
