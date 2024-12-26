@@ -13,9 +13,10 @@ int main(){
     k = 0;
     l= 0;
 
-    for(int i=0; i<r; i++){
+    for(int i=0; i<r; i++)
+        {
         k++;  
-    }
+        }
 
     for (int i = 0; i < p; i++)
         {
