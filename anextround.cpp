@@ -7,7 +7,7 @@ int main(){
         cin.tie(nullptr);
 
         int k,n,t;
-        cin>> k >> n ;
+        cin>> n >> k ;
         vector<int>a(n);
         
         for(int i=0;i<n;i++)
