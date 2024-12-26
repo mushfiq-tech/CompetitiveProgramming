@@ -1,15 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+typedef long long ll;
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n,m,a;
+    ll n,m,a;
     cin>>n>>m>>a;
-    int r = ceil(double(n)/double(a));
-    int p = ceil(double(m)/double(a));
-    int k,l,s;
+    ll r = ceil(double(n)/double(a));
+    ll p = ceil(double(m)/double(a));
+    ll k,l;
+    ll s;
     k = 0;
     l= 0;
 
