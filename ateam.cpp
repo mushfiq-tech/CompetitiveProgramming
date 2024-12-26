@@ -7,6 +7,7 @@ int main(){
     int n;
     cin>> n ;
     int q = 0;
+
     for (int i=0; i<n; i++)
     {
         int x,y,z;
@@ -15,6 +16,7 @@ int main(){
         if((x+y+z)>1){
             q++;
             }
+        // q += (x+y+z)>1;
     }
     
     cout<< q ;
