@@ -19,7 +19,16 @@ int main(){
         for (int i= 0 ; i < a[k];i++)
         {
                 
-            t++;
+           if (a[i]!=0)
+           {
+                t++;
+           }
+
+           else
+           {
+                t = 0;
+           }
+           
                 
         }
 
