@@ -16,10 +16,10 @@ int main(){
         }
         
         
-        for (int i= 0 ; i < a.size();i++)
+        for (int i= 0 ; i < a[k];i++)
         {
                 
-            t+=(a[i]>=k);
+            t++;
                 
         }
 
