@@ -9,7 +9,7 @@ int main(){
     for (int i = 0; i < T; i++)
     {
         cin>>X;
-        if (X>=67 && X<=4500)
+        if (X>=67 && X<=45000)
         {
             cout<<"YES\n";
         }
