@@ -32,3 +32,38 @@ int main()
     cout<<X<<endl;   
     return 0;
 }
+
+// #include <bits/stdc++.h>
+
+// using namespace std;
+
+// int main()
+// {   
+
+//     ios::sync_with_stdio(false);
+//     cin.tie(nullptr);
+
+//     int X;
+//     int n;
+//     X=0;
+//     cin>>n;
+//     for (int i = 0; i < n; i++)
+//     {   
+//         string state;
+//         cin>>state;
+//         if (state[1] == '+')
+//         {   
+//             X++;
+            
+//         }
+//         else if (state[1] == '-')
+//         {
+//             X--;
+            
+//         }
+        
+        
+//     }
+//     cout<<X<<endl;   
+//     return 0;
+// }
