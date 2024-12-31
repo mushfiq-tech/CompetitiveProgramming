@@ -1,39 +1,29 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main(){
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-        ios::sync_with_stdio(false);
-        cin.tie(nullptr);
+    int n, k;
+    cin >> n >> k;
 
-        int k,n,t=0;
-        cin>> n >> k ;
-        vector<int>a(n);
-        
-        for (int i = 0; i < n; i++)
-        {
-            cin>>a[i];
+    vector<int> a(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+
+    int threshold = a[k - 1];  
+    int count = 0;
+
+    for (int i = 0; i < n; i++) {
+        if (a[i] >= threshold && a[i] > 0) {
+            count++;
         }
-        
-        
-        for (int i= 0 ; i < a[k];i++)
-        {
-                
-           if (a[i]!=0)
-           {
-                t++;
-           }
+    }
 
-           else
-           {
-                t = 0;
-           }
-           
-                
-        }
-
-        cout<<t;
-
+    cout << count << endl;
 
     return 0;
 }
