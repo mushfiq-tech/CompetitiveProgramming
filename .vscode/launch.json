@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/MUSHFIQ/Desktop/CompetitiveProgramming/CompetitiveProgramming",
-      "program": "c:/Users/MUSHFIQ/Desktop/CompetitiveProgramming/CompetitiveProgramming/build/Debug/outDebug",
+      "cwd": "c:/Users/MUSHFIQ/Desktop/CompetitiveProgramming/CompetitiveProgramming/beecrowd",
+      "program": "c:/Users/MUSHFIQ/Desktop/CompetitiveProgramming/CompetitiveProgramming/beecrowd/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
