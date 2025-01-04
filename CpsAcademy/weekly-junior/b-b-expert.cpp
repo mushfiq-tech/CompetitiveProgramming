@@ -7,14 +7,13 @@ int main()
     cin.tie(nullptr);
 
     int T,X,Y;
-    double p = X/Y;
-    double half = 1/2;
+    double p = (Y/X)*100;
     cin>>T;
 
-    for (int i = 0; i < T; i++)
+    while(T--)
     {
         cin>>X>>Y;
-        if (p >= half)
+        if (p >= 50)
         {
             
             cout<<"YES"<<endl;
