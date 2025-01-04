@@ -11,20 +11,20 @@ int main()
     int inputcon = round(input*100);
 
     int notes[] = {10000,5000,2000,1000,500,200};
-    int coins[]= {100,50,20,10,5,2,1};
+    int coins[]= {100,50,25,10,5,1};
     cout<<"NOTAS:"<<endl;
 
     for (int i = 0; i < 6; i++)
     {
-        int notas = input / notes[i];
-        cout<<notas<<" nota(s) de R$ "<<notes[i]/100.0<<endl;
+        // int notas = input / notes[i];
+        cout<<input / notes[i]<<" nota(s) de R$ "<<notes[i]/100.0<<".00"<<endl;
         inputcon = inputcon % notes[i];
     }
     cout<<"MEDAS:"<<endl;
-    for (int i = 0; i < 7; i++)
+    for (int i = 0; i < 6; i++)
     {
-        int medas = inputcon / notes[i];
-        cout<<medas<<" moeda(s) de R$ "<<coins[i]/100.0<<endl;
+        // int medas = inputcon / coins[i];
+        cout<<inputcon / coins[i]<<" moeda(s) de R$ "<<coins[i]/100.0<<endl;
         inputcon = inputcon % coins[i];
     }
     
