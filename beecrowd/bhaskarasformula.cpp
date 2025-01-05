@@ -30,3 +30,46 @@ int main()
 
     return 0;
 }
+
+// #include <iostream>
+// #include <iomanip>
+// #include <cmath>  // For sqrt
+
+// // Function to calculate the discriminant
+// double calculate_discriminant(double A, double B, double C) {
+//     return (B * B) - (4 * A * C);
+// }
+
+// // Function to check if the roots are possible and calculate them
+// bool calculate_roots(double A, double B, double C, double& R1, double& R2) {
+//     double discriminant = calculate_discriminant(A, B, C);
+    
+//     if (A == 0 || discriminant < 0) {
+//         return false;  // Return false if the calculation is impossible
+//     }
+
+//     R1 = (-B + sqrt(discriminant)) / (2 * A);
+//     R2 = (-B - sqrt(discriminant)) / (2 * A);
+    
+//     return true;  // Return true if calculation was successful
+// }
+
+// int main() {
+//     double A, B, C;
+//     double R1, R2;  // Variables to hold the roots
+
+//     // Reading input
+//     std::cin >> A >> B >> C;
+
+//     // Check if we can calculate the roots
+//     if (calculate_roots(A, B, C, R1, R2)) {
+//         // Print roots with 5 digits after the decimal point
+//         std::cout << std::fixed << std::setprecision(5);
+//         std::cout << "R1 = " << R1 << std::endl;
+//         std::cout << "R2 = " << R2 << std::endl;
+//     } else {
+//         std::cout << "Impossivel calcular" << std::endl;
+//     }
+
+//     return 0;
+// }
