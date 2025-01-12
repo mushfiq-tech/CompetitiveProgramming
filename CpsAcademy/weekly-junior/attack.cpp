@@ -8,14 +8,12 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int num;
-    cin>>num;
-    int a = num/100;
-    int b = (num/10)%10;
-    int c = num%10;
+    long long a,b;
+    cin>>a>>b;
 
-    int s = 111*(a+b+c);
-    cout<<s<<endl;
     
+    double am = (1.0*a/b);
+    am = ceil(am);
+    cout<<am<<endl;
     return 0;
 }
