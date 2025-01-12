@@ -11,10 +11,10 @@ int main()
 
     d = a/b;
     r = a%b;
-    f = a/b;
+    f = (double)a/b;
 
     cout<<fixed<<setprecision(5);
-    cout<<d<<r<<f<<endl;
+    cout<<d<<" "<<r<<" "<<f<<endl;
     
     return 0;
 }

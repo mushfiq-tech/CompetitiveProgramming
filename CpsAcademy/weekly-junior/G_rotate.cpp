@@ -5,14 +5,12 @@ using namespace std;
 
 int main()
 {
-    double a ;
-    cin>>a;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    double ar =  M_PI*a*a;
-    double cr =  2*M_PI*a;
-
-    cout<<fixed<<setprecision(6);
-    cout<<ar<<" "<<cr<<endl;
+    char a,b,c;
+    cin>>a>>b>>c;
+    cout<<3*(a-'0')+3*(b-'0')+3*(c-'0')<<endl;
     
     return 0;
 }
