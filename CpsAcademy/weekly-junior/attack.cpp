@@ -12,8 +12,8 @@ int main()
     cin>>a>>b;
 
     
-    double am = (1.0*a/b);
-    am = ceil(am);
+    long long am = (a+b-1)/b;
+    
     cout<<am<<endl;
     return 0;
 }
