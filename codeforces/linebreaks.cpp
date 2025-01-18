@@ -1,3 +1,6 @@
+// https://codeforces.com/problemset/problem/2050/A
+
+
 // #include <bits/stdc++.h>
 // using namespace std;
 
@@ -17,26 +20,27 @@
 //         {
 //             cin>>s[i];
 //         }
+//         int val = 0;
+//         int x = 0;
+
+//         for (int i = 0; i < n; i++)
+//         {
+//             int wlen = s[i].size();
+//             if (val+wlen<=m)
+//             {
+//                 val = val+wlen;
+//                 x++;
+//             }
+//             else
+//             {
+//                 break;
+//             }
+            
+//         }
         
 //     }
   
-//     int val = 0;
-//     int x = 0;
 
-//     for (int i = 0; i < n; i++)
-//     {
-//         int wlen = s[i].size();
-//         if (val+wlen<=m)
-//         {
-//             val = val+wlen;
-//             x++;
-//         }
-//         else
-//         {
-//             break;
-//         }
-        
-//     }
     
 //     cout<<x<<endl
     
@@ -80,3 +84,34 @@ int main() {
 
     return 0;
 }
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{   
+    int t;
+    cin>>t;
+
+    while (t--)
+    {
+        int n,m;
+        cin>>n>>m;
+        
+        vector<string> words;
+
+        for (int i = 0; i < n; i++)
+        {
+            cin>>words[i];
+        }
+        
+
+    }
+    
+
+    
+    return 0;
+}
+
+
+;
